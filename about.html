@@ -1,0 +1,120 @@
+<!-- DEVELOPER Dileesha Patel, IS117-004, Summer 2022 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>My First Bootstrap Page</title>
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+		  rel="stylesheet"
+		  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+		  crossorigin="anonymous">
+	<link href="css/main.css" rel="stylesheet">
+</head>
+
+
+<header>
+	<img src="images/logo.GIF" alt="logo" height="80">
+	<h1 class="text-success text-left">Recyclable Straws</h1>
+	<h4>Straws that will save our environment</h4>
+</header>
+<body>
+<div class="container-fluid">
+<div class="row">
+	<nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+		<!-- Brand -->
+		<a class="navbar-brand" href="images/logo.GIF"></a>
+		<!-- Responsive Button for the smaller menu -->
+		<button class="navbar-toggler" type="button"
+				data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<!-- Links -->
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="about.html">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="subscribe.html">Subscribe</a>
+				</li>
+
+				<!-- Dropdown -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+					   data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Products
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="recyclable.html">Recyclable</a>
+						<a class="dropdown-item" href="reusable.html">Reusable</a>
+						<a class="dropdown-item" href="edible.html">Edible</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</div>
+<h1 class="text-success text-center">About Us</h1>
+<div class="text-center">
+	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae nihil hic delectus excepturi ipsam
+		reprehenderit iusto rem, quam, repellendus accusantium culpa reiciendis sit dolorum aut aperiam a
+		architecto. Fuga, sit.Curabitur iaculis id tortor tempor laoreet. Donec tempus odio vitae porta
+		tincidunt. Maecenas tellus augue, faucibus ut mauris at, ultrices tincidunt lectus. Ut suscipit a
+		purus sed feugiat. Sed maximus diam at lectus vehicula, eget euismod nisl interdum. Integer quis
+		scelerisque turpis, ac hendrerit diam. Ut sit amet tortor vitae libero gravida placerat ac ac augue.
+		Fusce eu risus fringilla, posuere magna in, efficitur leo. Duis id lorem finibus, condimentum velit id,
+		feugiat nulla. Cras eu sem sit amet enim consectetur tristique. Nam vitae felis in tortor posuere
+		consequat quis eu enim. Aliquam erat volutpat. Integer vel mi ut ipsum consequat faucibus. Curabitur
+		rutrum sem a mauris finibus consectetur. Curabitur erat mi, sodales vel orci non, rutrum eleifend odio.
+		Maecenas eget finibus ipsum. Aenean placerat pellentesque ante, a tristique ligula aliquet at.
+		In malesuada efficitur venenatis. </p>
+	<p>Vivamus eget vestibulum urna. Morbi sed diam lorem.
+		Nunc convallis odio sit amet nisl rutrum, tempor semper arcu vulputate. Ut semper, lorem et elementum
+		efficitur, neque leo ornare leo, molestie semper est turpis a nunc. Ut ac metus nisl. Nullam feugiat
+		ex ac neque porttitor fermentum. Mauris pellentesque elementum mi, sed mollis erat facilisis a. Nulla
+		magna ex, fringilla a mi at, tincidunt aliquet mi. Suspendisse potenti. Morbi tempor ipsum vitae nunc
+		condimentum, eu lobortis eros laoreet. Nullam at urna suscipit urna ultricies tincidunt.
+		In fermentum orci sed arcu dictum tempus. Suspendisse gravida tellus sit amet porttitor cursus.
+		Nullam et lorem ut nibh ullamcorper consectetur. Ut laoreet dui consectetur lacus molestie, eu laoreet
+		sem pulvinar. Integer pharetra sodales ullamcorper. Suspendisse sit amet viverra dolor, et cursus
+		tortor. Cras fringilla sem id urna volutpat sagittis. Vestibulum lacinia ultrices sapien viverra
+		tempor. Etiam id risus massa. Proin pretium accumsan magna eget fermentum. Duis sit amet ornare
+		ipsum, in aliquet velit. Sed tempus malesuada lacus, at faucibus libero hendrerit ac. Morbi tincidunt,
+		purus ut mattis tristique, mi magna posuere quam, et tincidunt enim nisi vitae libero. Morbi fermentum
+		orci et elit facilisis pulvinar. Suspendisse pharetra augue lacus, nec tempor justo pretium nec</p>
+</div>
+
+
+<footer class="footer page-footer font-small ">
+	<div class="container">
+		<div class="row">
+			<span class="text-muted">&copy; DEVELOPER Dileesha Patel, IS117-004, Summer 2022 </span>
+		</div>
+	</div>
+</footer>
+</div>
+<!--
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous">
+</script>
+
+</body>
+</html>

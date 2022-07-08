@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>My First Bootstrap Page</title>
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+		  rel="stylesheet"
+		  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+		  crossorigin="anonymous">
+	<link href="css/main.css" rel="stylesheet">
+</head>
+
+
+<header>
+	<img src="images/logo.GIF" alt="logo" height="80">
+	<h1 class="text-success text-left">Recyclable Straws</h1>
+	<h4>Straws that will save our environment</h4>
+</header>
+<body>
+
+<div class="row">
+	<nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+		<!-- Brand -->
+		<a class="navbar-brand" href="images/logo.GIF"></a>
+		<!-- Responsive Button for the smaller menu -->
+		<button class="navbar-toggler" type="button"
+				data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<!-- Links -->
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="subscribe.html">Subscribe</a>
+				</li>
+
+				<!-- Dropdown -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+					   data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Products
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="recyclable.html">Recyclable</a>
+						<a class="dropdown-item" href="reusable.html">Reusable</a>
+						<a class="dropdown-item" href="edible.html">Edible</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</div>
+
+<h1 style="color:green;text-align:center;">
+	Straws made from plants </h1>
+
+<div class="card" style="width:400px">
+	<img class="card-img-top" src="/images/grass.webp" alt="Card image">
+	<div class="card-body">
+		<h4 class="card-title">Grass Straw</h4>
+		<p class="card-text">These straws are made from raw grass and are completely recyclable and does no  harm to environment.</p>
+		<a href="#" class="btn btn-primary">See all buying options</a>
+	</div>
+</div>
+
+<div class="card" style="width:400px">
+	<img class="card-img-top" src="/images/bamboo.jpg" alt="Card image">
+	<div class="card-body">
+		<h4 class="card-title">John Doe</h4>
+		<p class="card-text">These straws are made from bamboo sticks and are completely recyclable and does no  harm to environment.</p>
+		<a href="#" class="btn btn-primary">See all buying options</a>
+	</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous">
+</script>
+
+<footer class="footer page-footer font-small ">
+	<div class="container">
+		<div class="row">
+			<span class="text-muted">&copy; DEVELOPER Dileesha Patel, IS117-004, Summer 2022 </span>
+		</div>
+	</div>
+</footer>
+
+
+</body>
+</html>
